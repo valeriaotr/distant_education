@@ -1,0 +1,26 @@
+<Project>
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>disable</ImplicitUsings>
+        <Nullable>disable</Nullable>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <AnalysisLevel>latest</AnalysisLevel>
+        <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+        <NoWarn>1591;IDE0044;SA1633;SA1101;IDE0052;IDE0007;CA1721;IDE0047;IDE0040;IDE0005;CA1508;SA1503;IDE0008;CA1725;CA1051;SA1309;IDE1006;SA1601;SA1201;SA1502;SA1127;SA1128;SA1600;SA1611;SA1604;SA1629;SA1602;CS8618;IDE0051;CA1002;CA2227</NoWarn>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="StyleCop.Analyzers" PrivateAssets="all" IncludeAssets="runtime; build; native; contentfiles; analyzers; buildtransitive"/>
+        <PackageReference Include="Itmo.Dev.Editorconfig"/>
+        <PackageReference Include="System.Linq.Async"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <InternalsVisibleTo Include="$(AsseblyName).Tests"/>
+    </ItemGroup>
+</Project>

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/DistantEducation.Presentation.Http.props" />
+</Project>

@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\Infrastructure\DistantEducation.Infrastructure.Persistence\DistantEducation.Infrastructure.Persistence.csproj" />
+        <ProjectReference Include="..\DistantEducation.Application.Abstractions\DistantEducation.Application.Abstractions.csproj"/>
+        <ProjectReference Include="..\DistantEducation.Application.Contracts\DistantEducation.Application.Contracts.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="FluentMigrator.Runner" />
+        <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" />
+        <PackageReference Remove="StyleCop.Analyzers" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
+
+
+
+
+
+
+    </ItemGroup>
+
+
+
+
+</Project>

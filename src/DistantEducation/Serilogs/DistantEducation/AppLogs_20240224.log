@@ -1,0 +1,269 @@
+2024-02-24T16:02:49.7499940+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting starting
+2024-02-24T16:02:50.0826870+03:00 [WRN] Microsoft.AspNetCore.Server.Kestrel Overriding address(es) '"http://localhost:5017"'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-02-24T16:02:50.1148550+03:00 [INF] Microsoft.Hosting.Lifetime Now listening on: "http://[::]:8070"
+2024-02-24T16:02:50.1171240+03:00 [INF] Microsoft.Hosting.Lifetime Application started. Press Ctrl+C to shut down.
+2024-02-24T16:02:50.1175120+03:00 [INF] Microsoft.Hosting.Lifetime Hosting environment: "Local"
+2024-02-24T16:02:50.1176440+03:00 [INF] Microsoft.Hosting.Lifetime Content root path: "/Users/valeriaotrosenko/Desktop/project-edu/DistantEducation/src/DistantEducation"
+2024-02-24T16:02:50.1177870+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting started
+2024-02-24T16:03:46.4495430+03:00 [INF] Microsoft.Hosting.Lifetime Application is shutting down...
+2024-02-24T16:03:46.4588930+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting stopping
+2024-02-24T16:03:46.4722760+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting stopped
+2024-02-24T16:09:13.7085140+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting starting
+2024-02-24T16:09:13.8169130+03:00 [ERR] Microsoft.Extensions.Hosting.Internal.Host Hosting failed to start
+System.InvalidOperationException: No service for type 'FluentMigrator.Runner.IMigrationRunner' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Itmo.Dev.Platform.Postgres.Extensions.ServiceScopeExtensions.UsePlatformMigrationsAsync(IServiceScope scope, CancellationToken cancellationToken)
+   at DistantEducation.Infrastructure.Persistence.Migrations.MigrationRunnerService.ExecuteAsync(CancellationToken stoppingToken) in /Users/valeriaotrosenko/Desktop/project-edu/DistantEducation/src/Infrastructure/DistantEducation.Infrastructure.Persistence/Migrations/MigrationRunnerService.cs:line 23
+   at DistantEducation.Infrastructure.Persistence.Migrations.MigrationRunnerService.ExecuteAsync(CancellationToken stoppingToken) in /Users/valeriaotrosenko/Desktop/project-edu/DistantEducation/src/Infrastructure/DistantEducation.Infrastructure.Persistence/Migrations/MigrationRunnerService.cs:line 23
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2024-02-24T16:12:27.6220270+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting starting
+2024-02-24T16:12:27.7820670+03:00 [ERR] Microsoft.Extensions.Hosting.Internal.Host Hosting failed to start
+System.TypeLoadException: Could not load type 'FluentMigrator.Runner.IMigrationRunner' from assembly 'FluentMigrator.Runner, Version=5.1.0.0, Culture=neutral, PublicKeyToken=aacfc7de5acabf05'.
+   at Itmo.Dev.Platform.Postgres.Extensions.ServiceScopeExtensions.UsePlatformMigrationsAsync(IServiceScope scope, CancellationToken cancellationToken)
+   at DistantEducation.Infrastructure.Persistence.Migrations.MigrationRunnerService.ExecuteAsync(CancellationToken stoppingToken) in /Users/valeriaotrosenko/Desktop/project-edu/DistantEducation/src/Infrastructure/DistantEducation.Infrastructure.Persistence/Migrations/MigrationRunnerService.cs:line 23
+   at DistantEducation.Infrastructure.Persistence.Migrations.MigrationRunnerService.ExecuteAsync(CancellationToken stoppingToken) in /Users/valeriaotrosenko/Desktop/project-edu/DistantEducation/src/Infrastructure/DistantEducation.Infrastructure.Persistence/Migrations/MigrationRunnerService.cs:line 23
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2024-02-24T16:14:13.7174870+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting starting
+2024-02-24T16:14:13.9578330+03:00 [ERR] Microsoft.Extensions.Hosting.Internal.Host Hosting failed to start
+System.TypeLoadException: Could not load type 'FluentMigrator.Runner.IMigrationRunner' from assembly 'FluentMigrator.Runner, Version=5.1.0.0, Culture=neutral, PublicKeyToken=aacfc7de5acabf05'.
+   at Itmo.Dev.Platform.Postgres.Extensions.ServiceScopeExtensions.UsePlatformMigrationsAsync(IServiceScope scope, CancellationToken cancellationToken)
+   at DistantEducation.Infrastructure.Persistence.Migrations.MigrationRunnerService.ExecuteAsync(CancellationToken stoppingToken) in /Users/valeriaotrosenko/Desktop/project-edu/DistantEducation/src/Infrastructure/DistantEducation.Infrastructure.Persistence/Migrations/MigrationRunnerService.cs:line 23
+   at DistantEducation.Infrastructure.Persistence.Migrations.MigrationRunnerService.ExecuteAsync(CancellationToken stoppingToken) in /Users/valeriaotrosenko/Desktop/project-edu/DistantEducation/src/Infrastructure/DistantEducation.Infrastructure.Persistence/Migrations/MigrationRunnerService.cs:line 23
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2024-02-24T16:15:31.5421670+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting starting
+2024-02-24T16:15:31.6527200+03:00 [ERR] Microsoft.Extensions.Hosting.Internal.Host Hosting failed to start
+System.TypeLoadException: Could not load type 'FluentMigrator.Runner.IMigrationRunner' from assembly 'FluentMigrator.Runner, Version=5.1.0.0, Culture=neutral, PublicKeyToken=aacfc7de5acabf05'.
+   at Itmo.Dev.Platform.Postgres.Extensions.ServiceScopeExtensions.UsePlatformMigrationsAsync(IServiceScope scope, CancellationToken cancellationToken)
+   at DistantEducation.Infrastructure.Persistence.Migrations.MigrationRunnerService.ExecuteAsync(CancellationToken stoppingToken) in /Users/valeriaotrosenko/Desktop/project-edu/DistantEducation/src/Infrastructure/DistantEducation.Infrastructure.Persistence/Migrations/MigrationRunnerService.cs:line 23
+   at DistantEducation.Infrastructure.Persistence.Migrations.MigrationRunnerService.ExecuteAsync(CancellationToken stoppingToken) in /Users/valeriaotrosenko/Desktop/project-edu/DistantEducation/src/Infrastructure/DistantEducation.Infrastructure.Persistence/Migrations/MigrationRunnerService.cs:line 23
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2024-02-24T16:16:34.4666290+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting starting
+2024-02-24T16:16:34.5778210+03:00 [ERR] Microsoft.Extensions.Hosting.Internal.Host Hosting failed to start
+System.TypeLoadException: Could not load type 'FluentMigrator.Runner.IMigrationRunner' from assembly 'FluentMigrator.Runner, Version=5.1.0.0, Culture=neutral, PublicKeyToken=aacfc7de5acabf05'.
+   at Itmo.Dev.Platform.Postgres.Extensions.ServiceScopeExtensions.UsePlatformMigrationsAsync(IServiceScope scope, CancellationToken cancellationToken)
+   at DistantEducation.Infrastructure.Persistence.Migrations.MigrationRunnerService.ExecuteAsync(CancellationToken stoppingToken) in /Users/valeriaotrosenko/Desktop/project-edu/DistantEducation/src/Infrastructure/DistantEducation.Infrastructure.Persistence/Migrations/MigrationRunnerService.cs:line 23
+   at DistantEducation.Infrastructure.Persistence.Migrations.MigrationRunnerService.ExecuteAsync(CancellationToken stoppingToken) in /Users/valeriaotrosenko/Desktop/project-edu/DistantEducation/src/Infrastructure/DistantEducation.Infrastructure.Persistence/Migrations/MigrationRunnerService.cs:line 23
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2024-02-24T16:21:28.0556510+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting starting
+2024-02-24T16:21:28.2211410+03:00 [WRN] Microsoft.AspNetCore.Server.Kestrel Overriding address(es) '"http://localhost:5017"'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-02-24T16:21:28.2450640+03:00 [INF] Microsoft.Hosting.Lifetime Now listening on: "http://[::]:8070"
+2024-02-24T16:21:28.2454440+03:00 [INF] Microsoft.Hosting.Lifetime Application started. Press Ctrl+C to shut down.
+2024-02-24T16:21:28.2456160+03:00 [INF] Microsoft.Hosting.Lifetime Hosting environment: "Local"
+2024-02-24T16:21:28.2457370+03:00 [INF] Microsoft.Hosting.Lifetime Content root path: "/Users/valeriaotrosenko/Desktop/project-edu/DistantEducation/src/DistantEducation"
+2024-02-24T16:21:28.2458530+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting started
+2024-02-24T16:25:02.2768220+03:00 [INF] Microsoft.Hosting.Lifetime Application is shutting down...
+2024-02-24T16:25:02.3181060+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting stopping
+2024-02-24T16:25:02.3677450+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting stopped
+2024-02-24T16:25:23.5188640+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting starting
+2024-02-24T16:25:23.7294090+03:00 [WRN] Microsoft.AspNetCore.Server.Kestrel Overriding address(es) '"http://localhost:5017"'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-02-24T16:25:23.7569600+03:00 [INF] Microsoft.Hosting.Lifetime Now listening on: "http://[::]:8070"
+2024-02-24T16:25:23.7573070+03:00 [INF] Microsoft.Hosting.Lifetime Application started. Press Ctrl+C to shut down.
+2024-02-24T16:25:23.7574620+03:00 [INF] Microsoft.Hosting.Lifetime Hosting environment: "Local"
+2024-02-24T16:25:23.7575840+03:00 [INF] Microsoft.Hosting.Lifetime Content root path: "/Users/valeriaotrosenko/Desktop/project-edu/DistantEducation/src/DistantEducation"
+2024-02-24T16:25:23.7576950+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting started
+2024-02-24T16:25:44.1358040+03:00 [INF] Microsoft.Hosting.Lifetime Application is shutting down...
+2024-02-24T16:25:44.1374670+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting stopping
+2024-02-24T16:25:44.1526650+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting stopped
+2024-02-24T16:25:50.3659450+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting starting
+2024-02-24T16:25:50.5938730+03:00 [WRN] Microsoft.AspNetCore.Server.Kestrel Overriding address(es) '"http://localhost:5017"'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-02-24T16:25:50.6258820+03:00 [INF] Microsoft.Hosting.Lifetime Now listening on: "http://[::]:8070"
+2024-02-24T16:25:50.6264270+03:00 [INF] Microsoft.Hosting.Lifetime Application started. Press Ctrl+C to shut down.
+2024-02-24T16:25:50.6266900+03:00 [INF] Microsoft.Hosting.Lifetime Hosting environment: "Local"
+2024-02-24T16:25:50.6268770+03:00 [INF] Microsoft.Hosting.Lifetime Content root path: "/Users/valeriaotrosenko/Desktop/project-edu/DistantEducation/src/DistantEducation"
+2024-02-24T16:25:50.6270550+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting started
+2024-02-24T16:33:13.8812100+03:00 [INF] Microsoft.Hosting.Lifetime Application is shutting down...
+2024-02-24T16:33:13.8841120+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting stopping
+2024-02-24T16:33:13.9073650+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting stopped
+2024-02-24T16:33:55.0908280+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting starting
+2024-02-24T16:33:55.2791920+03:00 [WRN] Microsoft.AspNetCore.Server.Kestrel Overriding address(es) '"http://localhost:5017"'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-02-24T16:33:55.3063620+03:00 [INF] Microsoft.Hosting.Lifetime Now listening on: "http://[::]:8070"
+2024-02-24T16:33:55.3068060+03:00 [INF] Microsoft.Hosting.Lifetime Application started. Press Ctrl+C to shut down.
+2024-02-24T16:33:55.3069850+03:00 [INF] Microsoft.Hosting.Lifetime Hosting environment: "Local"
+2024-02-24T16:33:55.3071030+03:00 [INF] Microsoft.Hosting.Lifetime Content root path: "/Users/valeriaotrosenko/Desktop/project-edu/DistantEducation/src/DistantEducation"
+2024-02-24T16:33:55.3072250+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting started
+2024-02-24T16:34:55.1383700+03:00 [INF] Microsoft.Hosting.Lifetime Application is shutting down...
+2024-02-24T16:34:55.1399760+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting stopping
+2024-02-24T16:34:55.1513900+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting stopped
+2024-02-24T16:37:03.8780070+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting starting
+2024-02-24T16:37:04.0090020+03:00 [WRN] Microsoft.AspNetCore.Server.Kestrel Overriding address(es) '"http://localhost:8070"'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-02-24T16:37:04.0224980+03:00 [INF] Microsoft.Hosting.Lifetime Now listening on: "http://[::]:8070"
+2024-02-24T16:37:04.0229750+03:00 [INF] Microsoft.Hosting.Lifetime Application started. Press Ctrl+C to shut down.
+2024-02-24T16:37:04.0231080+03:00 [INF] Microsoft.Hosting.Lifetime Hosting environment: "Local"
+2024-02-24T16:37:04.0232560+03:00 [INF] Microsoft.Hosting.Lifetime Content root path: "/Users/valeriaotrosenko/Desktop/project-edu/DistantEducation/src/DistantEducation"
+2024-02-24T16:37:04.0233440+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting started
+2024-02-24T16:38:14.2680920+03:00 [INF] Microsoft.Hosting.Lifetime Application is shutting down...
+2024-02-24T16:38:14.2716160+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting stopping
+2024-02-24T16:38:14.2906950+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting stopped
+2024-02-24T16:38:20.0307220+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting starting
+2024-02-24T16:38:20.1361030+03:00 [WRN] Microsoft.AspNetCore.Server.Kestrel Overriding address(es) '"http://localhost:8070"'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-02-24T16:38:20.1514120+03:00 [WRN] Microsoft.AspNetCore.Server.Kestrel HTTP/2 is not enabled for "[::]:8070". The endpoint is configured to use HTTP/1.1 and HTTP/2, but TLS is not enabled. HTTP/2 requires TLS application protocol negotiation. Connections to this endpoint will use HTTP/1.1.
+2024-02-24T16:38:20.1517340+03:00 [WRN] Microsoft.AspNetCore.Server.Kestrel HTTP/3 is not enabled for "[::]:8070". HTTP/3 requires TLS. Connections to this endpoint will use HTTP/1.1.
+2024-02-24T16:38:20.1559560+03:00 [INF] Microsoft.Hosting.Lifetime Now listening on: "http://[::]:8070"
+2024-02-24T16:38:20.1562280+03:00 [INF] Microsoft.Hosting.Lifetime Application started. Press Ctrl+C to shut down.
+2024-02-24T16:38:20.1563360+03:00 [INF] Microsoft.Hosting.Lifetime Hosting environment: "Local"
+2024-02-24T16:38:20.1564240+03:00 [INF] Microsoft.Hosting.Lifetime Content root path: "/Users/valeriaotrosenko/Desktop/project-edu/DistantEducation/src/DistantEducation"
+2024-02-24T16:38:20.1588980+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting started
+2024-02-24T16:38:43.7705780+03:00 [ERR] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HN1L7NEKRL3E"", Request id ""0HN1L7NEKRL3E:00000006"": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'DistantEducation.Application.Services.UserService' while attempting to activate 'DistantEducation.Presentation.Http.Controllers.UserController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method3(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2024-02-24T17:06:15.0124280+03:00 [INF] Microsoft.Hosting.Lifetime Application is shutting down...
+2024-02-24T17:06:15.2077570+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting stopping
+2024-02-24T17:06:15.4500660+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting stopped
+2024-02-24T17:30:59.2040070+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting starting
+2024-02-24T17:30:59.5505440+03:00 [WRN] Microsoft.AspNetCore.Server.Kestrel Overriding address(es) '"http://localhost:8070"'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-02-24T17:30:59.5904060+03:00 [WRN] Microsoft.AspNetCore.Server.Kestrel HTTP/2 is not enabled for "[::]:8070". The endpoint is configured to use HTTP/1.1 and HTTP/2, but TLS is not enabled. HTTP/2 requires TLS application protocol negotiation. Connections to this endpoint will use HTTP/1.1.
+2024-02-24T17:30:59.5909960+03:00 [WRN] Microsoft.AspNetCore.Server.Kestrel HTTP/3 is not enabled for "[::]:8070". HTTP/3 requires TLS. Connections to this endpoint will use HTTP/1.1.
+2024-02-24T17:30:59.6005010+03:00 [INF] Microsoft.Hosting.Lifetime Now listening on: "http://[::]:8070"
+2024-02-24T17:30:59.6025630+03:00 [INF] Microsoft.Hosting.Lifetime Application started. Press Ctrl+C to shut down.
+2024-02-24T17:30:59.6031740+03:00 [INF] Microsoft.Hosting.Lifetime Hosting environment: "Local"
+2024-02-24T17:30:59.6035340+03:00 [INF] Microsoft.Hosting.Lifetime Content root path: "/Users/valeriaotrosenko/Desktop/project-edu/DistantEducation/src/DistantEducation"
+2024-02-24T17:30:59.6037360+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting started
+2024-02-24T17:31:18.3309930+03:00 [ERR] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HN1L8KSB3354"", Request id ""0HN1L8KSB3354:00000004"": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'DistantEducation.Infrastructure.Persistence.Repositories.UserRepository' while attempting to activate 'DistantEducation.Application.Services.UserService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method3(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2024-02-24T17:31:36.8694020+03:00 [INF] Microsoft.Hosting.Lifetime Application is shutting down...
+2024-02-24T17:31:36.8927800+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting stopping
+2024-02-24T17:31:36.9490520+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting stopped
+2024-02-24T17:32:49.7773360+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting starting
+2024-02-24T17:32:50.2738770+03:00 [WRN] Microsoft.AspNetCore.Server.Kestrel Overriding address(es) '"http://localhost:8070"'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-02-24T17:32:50.3386630+03:00 [WRN] Microsoft.AspNetCore.Server.Kestrel HTTP/2 is not enabled for "[::]:8070". The endpoint is configured to use HTTP/1.1 and HTTP/2, but TLS is not enabled. HTTP/2 requires TLS application protocol negotiation. Connections to this endpoint will use HTTP/1.1.
+2024-02-24T17:32:50.3391210+03:00 [WRN] Microsoft.AspNetCore.Server.Kestrel HTTP/3 is not enabled for "[::]:8070". HTTP/3 requires TLS. Connections to this endpoint will use HTTP/1.1.
+2024-02-24T17:32:50.3609880+03:00 [INF] Microsoft.Hosting.Lifetime Now listening on: "http://[::]:8070"
+2024-02-24T17:32:50.3615810+03:00 [INF] Microsoft.Hosting.Lifetime Application started. Press Ctrl+C to shut down.
+2024-02-24T17:32:50.3618070+03:00 [INF] Microsoft.Hosting.Lifetime Hosting environment: "Local"
+2024-02-24T17:32:50.3619750+03:00 [INF] Microsoft.Hosting.Lifetime Content root path: "/Users/valeriaotrosenko/Desktop/project-edu/DistantEducation/src/DistantEducation"
+2024-02-24T17:32:50.3687450+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting started
+2024-02-24T17:33:04.6587730+03:00 [ERR] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HN1L8LTAUQKQ"", Request id ""0HN1L8LTAUQKQ:00000004"": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'DistantEducation.Application.Abstractions.Persistence.Repositories.Interfaces.IUserRepository' while attempting to activate 'DistantEducation.Application.Services.UserService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method3(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2024-02-24T17:34:04.3969810+03:00 [INF] Microsoft.Hosting.Lifetime Application is shutting down...
+2024-02-24T17:34:04.4006330+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting stopping
+2024-02-24T17:34:04.4518620+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting stopped
+2024-02-24T17:34:34.1010310+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting starting
+2024-02-24T17:34:34.4224850+03:00 [WRN] Microsoft.AspNetCore.Server.Kestrel Overriding address(es) '"http://localhost:8070"'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-02-24T17:34:34.5101980+03:00 [WRN] Microsoft.AspNetCore.Server.Kestrel HTTP/2 is not enabled for "[::]:8070". The endpoint is configured to use HTTP/1.1 and HTTP/2, but TLS is not enabled. HTTP/2 requires TLS application protocol negotiation. Connections to this endpoint will use HTTP/1.1.
+2024-02-24T17:34:34.5109500+03:00 [WRN] Microsoft.AspNetCore.Server.Kestrel HTTP/3 is not enabled for "[::]:8070". HTTP/3 requires TLS. Connections to this endpoint will use HTTP/1.1.
+2024-02-24T17:34:34.5371540+03:00 [INF] Microsoft.Hosting.Lifetime Now listening on: "http://[::]:8070"
+2024-02-24T17:34:34.5376390+03:00 [INF] Microsoft.Hosting.Lifetime Application started. Press Ctrl+C to shut down.
+2024-02-24T17:34:34.5397280+03:00 [INF] Microsoft.Hosting.Lifetime Hosting environment: "Local"
+2024-02-24T17:34:34.5408120+03:00 [INF] Microsoft.Hosting.Lifetime Content root path: "/Users/valeriaotrosenko/Desktop/project-edu/DistantEducation/src/DistantEducation"
+2024-02-24T17:34:34.5416870+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting started
+2024-02-24T17:34:52.3550080+03:00 [ERR] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HN1L8MSA4D6M"", Request id ""0HN1L8MSA4D6M:00000004"": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'DistantEducation.Infrastructure.Persistence.Repositories.UserRepository' while attempting to activate 'DistantEducation.Application.Services.UserService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method3(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2024-02-24T17:37:10.6435950+03:00 [INF] Microsoft.Hosting.Lifetime Application is shutting down...
+2024-02-24T17:37:10.6482300+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting stopping
+2024-02-24T17:37:10.6688270+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting stopped
+2024-02-24T17:45:59.0676450+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting starting
+2024-02-24T17:45:59.5369560+03:00 [WRN] Microsoft.AspNetCore.Server.Kestrel Overriding address(es) '"http://localhost:8070"'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-02-24T17:45:59.5728380+03:00 [WRN] Microsoft.AspNetCore.Server.Kestrel HTTP/2 is not enabled for "[::]:8070". The endpoint is configured to use HTTP/1.1 and HTTP/2, but TLS is not enabled. HTTP/2 requires TLS application protocol negotiation. Connections to this endpoint will use HTTP/1.1.
+2024-02-24T17:45:59.5741770+03:00 [WRN] Microsoft.AspNetCore.Server.Kestrel HTTP/3 is not enabled for "[::]:8070". HTTP/3 requires TLS. Connections to this endpoint will use HTTP/1.1.
+2024-02-24T17:45:59.5809710+03:00 [INF] Microsoft.Hosting.Lifetime Now listening on: "http://[::]:8070"
+2024-02-24T17:45:59.5814770+03:00 [INF] Microsoft.Hosting.Lifetime Application started. Press Ctrl+C to shut down.
+2024-02-24T17:45:59.5816930+03:00 [INF] Microsoft.Hosting.Lifetime Hosting environment: "Local"
+2024-02-24T17:45:59.5818160+03:00 [INF] Microsoft.Hosting.Lifetime Content root path: "/Users/valeriaotrosenko/Desktop/project-edu/DistantEducation/src/DistantEducation"
+2024-02-24T17:45:59.5867050+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting started
+2024-02-24T17:46:15.7381970+03:00 [ERR] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HN1L8T8FT5F8"", Request id ""0HN1L8T8FT5F8:00000004"": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'DistantEducation.Application.Services.UserService' while attempting to activate 'DistantEducation.Presentation.Http.Controllers.UserController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method3(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2024-02-24T17:49:09.5193810+03:00 [INF] Microsoft.Hosting.Lifetime Application is shutting down...
+2024-02-24T17:49:09.5270690+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting stopping
+2024-02-24T17:49:09.5875900+03:00 [DBG] Microsoft.Extensions.Hosting.Internal.Host Hosting stopped

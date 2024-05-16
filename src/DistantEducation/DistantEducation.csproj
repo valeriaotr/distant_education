@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <ItemGroup>
+        <ProjectReference Include="..\Application\DistantEducation.Application\DistantEducation.Application.csproj"/>
+        <ProjectReference Include="..\Infrastructure\DistantEducation.Infrastructure.Persistence\DistantEducation.Infrastructure.Persistence.csproj"/>
+        <ProjectReference Include="..\Presentation\DistantEducation.Presentation.Http\DistantEducation.Presentation.Http.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="FluentMigrator.Runner" />
+        <PackageReference Include="Itmo.Dev.Platform.Logging"/>
+        <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" />
+        <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
+        <PackageReference Include="Swashbuckle.AspNetCore" />
+        <PackageReference Remove="StyleCop.Analyzers" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Content Update="appsettings.*.json">
+            <DependentUpon>appsettings.json</DependentUpon>
+        </Content>
+    </ItemGroup>
+
+</Project>

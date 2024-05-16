@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <ItemGroup>
+        <PackageReference Include="FluentMigrator.Runner" />
+        <PackageReference Include="Itmo.Dev.Platform.Postgres"/>
+        <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore" />
+        <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions"/>
+        <PackageReference Remove="StyleCop.Analyzers" />
+    </ItemGroup>
+
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\Application\DistantEducation.Application.Abstractions\DistantEducation.Application.Abstractions.csproj" />
+    </ItemGroup>
+
+
+
+
+
+
+
+</Project>

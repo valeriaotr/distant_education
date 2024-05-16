@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <ItemGroup>
+        <ProjectReference Include="..\DistantEducation.Application.Models\DistantEducation.Application.Models.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Remove="StyleCop.Analyzers" />
+      <PackageReference Include="FluentMigrator.Runner" />
+      <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
+    </ItemGroup>
+
+</Project>

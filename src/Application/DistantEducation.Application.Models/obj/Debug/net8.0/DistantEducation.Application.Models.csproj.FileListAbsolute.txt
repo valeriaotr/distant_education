@@ -1,0 +1,14 @@
+/Users/valeriaotrosenko/Desktop/project-edu/DistantEducation/src/Application/DistantEducation.Application.Models/bin/Debug/net8.0/DistantEducation.Application.Models.deps.json
+/Users/valeriaotrosenko/Desktop/project-edu/DistantEducation/src/Application/DistantEducation.Application.Models/bin/Debug/net8.0/DistantEducation.Application.Models.dll
+/Users/valeriaotrosenko/Desktop/project-edu/DistantEducation/src/Application/DistantEducation.Application.Models/bin/Debug/net8.0/DistantEducation.Application.Models.pdb
+/Users/valeriaotrosenko/Desktop/project-edu/DistantEducation/src/Application/DistantEducation.Application.Models/bin/Debug/net8.0/DistantEducation.Application.Models.xml
+/Users/valeriaotrosenko/Desktop/project-edu/DistantEducation/src/Application/DistantEducation.Application.Models/obj/Debug/net8.0/DistantEducation.Application.Models.csproj.AssemblyReference.cache
+/Users/valeriaotrosenko/Desktop/project-edu/DistantEducation/src/Application/DistantEducation.Application.Models/obj/Debug/net8.0/DistantEducation.Application.Models.GeneratedMSBuildEditorConfig.editorconfig
+/Users/valeriaotrosenko/Desktop/project-edu/DistantEducation/src/Application/DistantEducation.Application.Models/obj/Debug/net8.0/DistantEducation.Application.Models.AssemblyInfoInputs.cache
+/Users/valeriaotrosenko/Desktop/project-edu/DistantEducation/src/Application/DistantEducation.Application.Models/obj/Debug/net8.0/DistantEducation.Application.Models.AssemblyInfo.cs
+/Users/valeriaotrosenko/Desktop/project-edu/DistantEducation/src/Application/DistantEducation.Application.Models/obj/Debug/net8.0/DistantEducation.Application.Models.csproj.CoreCompileInputs.cache
+/Users/valeriaotrosenko/Desktop/project-edu/DistantEducation/src/Application/DistantEducation.Application.Models/obj/Debug/net8.0/DistantEducation.Application.Models.dll
+/Users/valeriaotrosenko/Desktop/project-edu/DistantEducation/src/Application/DistantEducation.Application.Models/obj/Debug/net8.0/refint/DistantEducation.Application.Models.dll
+/Users/valeriaotrosenko/Desktop/project-edu/DistantEducation/src/Application/DistantEducation.Application.Models/obj/Debug/net8.0/DistantEducation.Application.Models.xml
+/Users/valeriaotrosenko/Desktop/project-edu/DistantEducation/src/Application/DistantEducation.Application.Models/obj/Debug/net8.0/DistantEducation.Application.Models.pdb
+/Users/valeriaotrosenko/Desktop/project-edu/DistantEducation/src/Application/DistantEducation.Application.Models/obj/Debug/net8.0/ref/DistantEducation.Application.Models.dll
